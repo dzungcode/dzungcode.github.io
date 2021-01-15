@@ -9,9 +9,10 @@ verifyBtn.addEventListener("click", (e) => {
     const usernameArray = ["huou", "tuxaolon", "toohighnulo", "toohardsoundlone", "hillthank"];
     const usernameArrayTrans = ["Hươu", "Tú xạo lozzzz", "Hoài hết nunglon", "Hà xạo lozz", "Thanh phò phạch phạch"];
 
+    console.log(username);
     if ( usernameArray.includes(username.toLowerCase(), 0)) { 
         
-        const nameTransIndex = usernameArray.findIndex(element => element == username);
+        const nameTransIndex = usernameArray.findIndex(element => element === username);
         // const nameTrans = usernameArrayTrans[nameTransIndex];
         const nameTrans = usernameArrayTrans[nameTransIndex];
         

@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Sacramento&display=swap');
+
+* {
+   box-sizing: border-box;
+
+}
+
+#main {
+   background-image: url("/img/hou_gif2.gif");
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center; 
+   margin-top: 0px;
+   height: 100vh;
+}
+
+#musik {
+   /* background-color: #f58634; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4vh;
+}
+
+.introduction {
+   text-align: center;
+   font-family: Raleway;
+   display: inline;
+   margin: 0;
+}
+
+#intro1 {
+   font-size: 3rem;
+   margin-top: 0px;
+   margin-bottom: 1rem;
+   padding-top: 4vh;
+}
+
+.note {
+   text-align: center;
+   display: block;
+   font-family: Raleway;
+}
+
+.slide-img > img {
+   /* margin-top: 5%; */
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   display: block;
+}
+
+.group-slide {
+   width: 100%;
+   position: relative;
+}
+
+
+.slides {
+   overflow: hidden;
+}
+
+.slide {
+   position: absolute;
+   opacity: 0;
+   visibility: hidden;
+}
+.slide.active{
+   opacity: 1;
+   visibility: visible;
+}
+
+.btn-slide span{
+   color: black;
+   font-size: 5rem;
+   opacity: 0.6;
+}
+
+span#btn-prev{
+   position: absolute;
+   margin-top: 20%;
+   left: 0%;
+   /* z-index: 10; */
+   cursor: pointer;
+   font-size: 2em;
+   padding-left: 3.5%;
+}
+span#btn-next{
+   position: absolute;
+   margin-top: 20%;
+   right: 0%;
+   /* z-index: 10; */
+   cursor: pointer;
+   /* font-size: 2em; */
+   font-size: 200%;
+   padding-right: 3.6%;
+}
+
+/* CSS các nút Prev, Next */
+
+.bien-mat-ben-trai{
+   animation: bien-mat-ben-trai 1s forwards;
+}
+@-webkit-keyframes bien-mat-ben-trai{
+   from{
+      transform: translateX(0%);
+   }
+   to{
+      transform: translateX(-100%);
+   }
+}
+.di-vao-ben-phai{
+   animation: di-vao-ben-phai 1s forwards;
+}
+@-webkit-keyframes di-vao-ben-phai{
+   from{
+      transform: translateX(100%);
+   }
+   to{
+      transform: translateX(0%);
+   }
+}
+/*xử lý nút prev*/
+.bien-mat-ben-phai{
+   animation: bien-mat-ben-phai 1s forwards;
+}
+@-webkit-keyframes bien-mat-ben-phai{
+   from{
+      transform: translateX(0%);
+   }
+   to{
+      transform: translateX(100%);
+   }
+}
+.di-vao-ben-trai{
+   animation: di-vao-ben-trai 1s forwards;
+}
+@-webkit-keyframes di-vao-ben-trai{
+   from{
+      transform: translateX(-100%);
+   }
+   to{
+      transform: translateX(0%);
+   }
+}
+
+
+.quiz {
+   margin-top: 64%;
+   text-align: center;
+   display: block;
+   font-family: Raleway;
+}
+
+#quiz-intro {
+   padding: 0.5em 0;
+}
+
+#quiz-btn {
+   text-decoration: none;
+   background-color: #f58634;
+   color: #ffffff;
+   padding: 0.5em 0.75em;
+}
+
+#quiz-btn:hover {
+   background-color: blue;
+   padding: 0.75em 1em;
+}

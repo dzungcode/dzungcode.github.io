@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Sacramento&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    text-align: center;
+    font-weight: bold;
+}
+
+#end-intro {
+    margin-top: 25vh;
+}
+

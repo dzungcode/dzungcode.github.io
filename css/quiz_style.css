@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Sacramento&display=swap');
+
+body {
+    margin: 0px;
+}
+
+#main {
+    text-align: center;
+    font-family: Raleway;
+}
+
+#intro {
+    /* margin-top: 15%; */
+    background-color: #f58634;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    margin: 0;
+}
+
+#header-count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-num-prefix, .quiz-score-prefix {
+    color:red;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#cau-hoi {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.quiz-num {
+    margin-left: 20%;
+}
+.quiz-score {
+    margin-right: 20%;
+}
+
+.question-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    /* cursor: pointer; */
+}
+.question-img > img{
+    width: 8rem;
+    height: 6rem;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}

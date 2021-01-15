@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Sacramento&display=swap');
+
+:root {
+
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Raleway;
+    /* display: block; */
+}
+
+.initial {
+    text-align: center;
+    display: block;
+    margin-top: 20rem;
+}
+
+#greet {
+    font-size: 3.2rem;
+}
+
+.initial-verify {
+    font-size: 1.6rem;
+}
+
+#verify-form {
+    display: inline-block;
+    font-size: 2rem;
+    font: bold;
+    justify-content: center;
+}
+
+#verify-form > input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#verify-name {
+    display: block;
+    padding: 0.5em 0.75em;
+    margin: 1em 0.75em;
+}
+
+#verify-submit-btn {
+    text-decoration: none;
+    background-color: #ff884b;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-width:0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* border:none; */
+}
+
+#verify-error-msg-holder {
+    color: red;
+    font-weight: bold;
+    opacity: 0;
+    margin-bottom: 1rem;
+}

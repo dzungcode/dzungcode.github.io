@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/css/quiz_style.css">
+    <style>
+        .clickable-div 
+        {
+             cursor: pointer;
+        }
+    </style></head>
+<body>
+    <div id="main">
+
+        <div id="header">
+
+            <p id="intro">
+                10 questions for you
+                <br>"How do you know me"
+            </p>
+            
+            <div id="header-count">
+                <div class="quiz-num">
+                    <p class="quiz-num-prefix">
+                        Question:
+                    </p>
+                    <p class="quiz-num-main" id="quiz">
+                        1
+                    </p>
+                </div>
+                <div class="quiz-score">
+                    <p class="quiz-score-prefix">
+                        Score:
+                    <p class="quiz-score-main" id="score">
+                        0
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <p id="cau-hoi">
+            Which I will choose?
+        </p>
+        <div id="questions">
+
+            <div class="question-container clickable-div">
+                <div class="choice-container" data-number="1">
+                    <p class="question-desc" data-number="1"></p>                        
+                    <div class="question-img" data-number="1"></div>
+                </div>
+                <div class="choice-container" data-number="2">
+                    <p class="question-desc" data-number="2"></p>
+                    <div class="question-img" data-number="2"></div>
+                </div>
+            </div>
+
+        
+        </div>
+    </div>
+
+    <script src="/js/main3.js"></script>
+</body>
+</html>

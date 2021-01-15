@@ -13,7 +13,7 @@ verifyBtn.addEventListener("click", (e) => {
         
         const nameTransIndex = usernameArray.findIndex(element => element == username);
         // const nameTrans = usernameArrayTrans[nameTransIndex];
-        nameTrans = usernameArrayTrans[nameTransIndex];
+        const nameTrans = usernameArrayTrans[nameTransIndex];
         
         localStorage.setItem('mostNameTrans', nameTrans);
         alert(`Hello ${nameTrans}. Let's go`);

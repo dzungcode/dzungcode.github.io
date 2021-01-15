@@ -13,9 +13,11 @@ verifyBtn.addEventListener("click", (e) => {
     if ( usernameArray.includes(username.toLowerCase(), 0)) { 
         
         const nameTransIndex = usernameArray.findIndex(element => element === username);
-        // const nameTrans = usernameArrayTrans[nameTransIndex];
         const nameTrans = usernameArrayTrans[nameTransIndex];
         
+        console.log(username);
+        console.log(nameTrans);
+
         localStorage.setItem('mostNameTrans', nameTrans);
         alert(`Hello ${nameTrans}. Let's go`);
         window.location.href = "/html/quiz.html"; 

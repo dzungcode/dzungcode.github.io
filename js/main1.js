@@ -17,7 +17,7 @@ verifyBtn.addEventListener("click", (e) => {
         
         localStorage.setItem('mostNameTrans', nameTrans);
         alert(`Hello ${nameTrans}. Let's go`);
-        window.location.href = "/html/quiz.html";
+        window.location.href = "/html/quiz.html"; 
 
     } else {
         verifyErrorMsg.style.opacity = 1;
